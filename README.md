@@ -7,15 +7,15 @@ Listed below are two open speech dataset consisting of audio recordings in wav f
 - [AudioMNIST](https://github.com/soerenab/AudioMNIST)
 - [Free spoken digit dataset](https://github.com/Jakobovski/free-spoken-digit-dataset)
 
-*Note- The script expects the audio files to be pre segregated in their corresponding labelled folders.
-E.g:
-/digits
-/digits/0
-/digits/1
-/digits/2
-.
-.
-.
+*Note- The script expects the audio files to be pre segregated in their corresponding labelled folders.*
+E.g:  
+/digits  
+/digits/0  
+/digits/1  
+/digits/2  
+.  
+.  
+.  
 
 # Approach/Algorithm:
 Librosa is a well known python library for sound analysis. Using librosa, we can load the audio file into a floating point time series that can be understood by the machine.
