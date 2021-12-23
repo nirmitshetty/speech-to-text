@@ -2,7 +2,9 @@
 Python script to recognize the spoken digits 0-9 using an ANN.
 
 # Available Datasets
-- [AudioMNIST](https://github.com/soerenab/AudioMNIST
+Listed below are two open speech dataset consisting of audio recordings in wav file format. The audio has already been preprocessed by trimming silence at the start and end.
+
+- [AudioMNIST](https://github.com/soerenab/AudioMNIST)
 - [Free spoken digit dataset](https://github.com/Jakobovski/free-spoken-digit-dataset)
 
 *Note- The script expects the audio files to be pre segregated in their corresponding labelled folders.
